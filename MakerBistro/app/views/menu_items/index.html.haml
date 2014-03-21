@@ -1,5 +1,10 @@
-%h2
+%h2 MakerBistro Menu
 - @menu_items.each do |item|
   = item.name
+  =link_to 'Show', menu_item_path(item.id)
+  %br
   = item.price
-  = item.ingredients
+  %br
+  %br
+
+

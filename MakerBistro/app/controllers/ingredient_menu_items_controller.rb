@@ -1,0 +1,2 @@
+class IngredientMenuItemsController < ApplicationController
+end

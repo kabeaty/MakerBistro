@@ -1,0 +1,8 @@
+%h2 Item & Ingredients
+%h3
+  = @menu_item.name
+- @menu_item.ingredients.each do |ing|
+  = ing.name
+  %br
+
+
