@@ -7,6 +7,7 @@ class MenuItemsController < ApplicationController
 
   def show
     @menu_item = MenuItem.find(params[:id])
+    @ingredient = Ingredient.new
   end
 
 end

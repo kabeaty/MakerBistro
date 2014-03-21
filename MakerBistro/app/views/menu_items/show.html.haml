@@ -5,4 +5,7 @@
   = ing.name
   %br
 
-
+= form_for([@menu_item, @ingredient], url: menu_item_ingredients_path(@menu_item.id)) do |f|
+  = f.label :name
+  = f.text_field :name
+  = f.submit
